@@ -38,7 +38,8 @@ Test locally
 python app.py
 Check http://127.0.0.1:5000 on browser. 127.0.0.1 is the local host IP. 5000 is the port the Flask app is running on.
 ```
-
+Deploy on heroku
+The Current python runtime is 3.9.14, which is supported by heroku. This is specified in `runtime.txt`. The two other files needed are `Procfile` amd `requirements.txt`.
 
 Resource
 Flask: https://cs.wellesley.edu/~cs304/lectures/flask/flask.html
